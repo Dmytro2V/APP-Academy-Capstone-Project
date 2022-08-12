@@ -1,0 +1,113 @@
+.logo {
+  display: inline;
+}
+.ul-none {
+  display:inline;
+  margin:0px 0px 00px 550px;
+  position: relative;   top: -80px;  
+  list-style-type: none;
+  color:#91B256;
+  padding: 0;  
+}
+.navtext {
+  color:#91B256;
+  font: Inter;
+  font-weight: 1000;
+  font-family: 'Inter';
+  text-align: center;
+}
+li {  
+  margin: 10px;
+}
+
+.headers {
+  font: Inknut Antiqua;
+  color:#5691B2;
+  font-weight: 400;
+  position:relative; 
+  left:50px;
+}
+h1 {
+  position:relative; 
+  left:300px;  
+  font: Inknut Antiqua;
+  color:#5691B2;
+  font-weight: 400;
+}
+
+.inline {
+  display: inline;
+}
+
+.text-par {
+  position:relative; 
+  left:50px;
+  margin-left: 50px;
+}
+
+.text { 
+  position:relative; 
+  left:50px;
+  font-family: 'Inter';
+  width:800px;  
+
+}
+
+form, fieldset {
+  width: 450px;
+  margin: 20px 50px;
+  font: Inknut Antiqua;
+  color:#5691B2;
+  
+}
+
+.box{  
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto ;
+    text-align: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 3px;
+
+}
+.submit-but{
+  margin-bottom: 10px;
+  font: Inknut Antiqua;
+  color:#5691B2;
+}
+.ul-links{
+  color:#91B256;
+  font: Inter;
+  font-weight: 1000;
+}
+.li-links{
+  color:#91B256;
+  font: Inter;
+  font-weight: 1000;
+}
+.a-links {
+  color:#91B256;
+  font: Inter;
+  font-weight: 1000; 
+}
+.a-links:visited {
+  color:#B25691;   
+}
+.a-links:hover {
+  color:#5691B2;   
+}
+

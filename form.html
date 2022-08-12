@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>aaCap</title>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+
+<body>
+
+	<div class="inline">
+		<img class="logo" src="/jpg/logo.jpg" alt="logo">
+		<nav class='nav'>
+			<ul class='ul-none'>
+				<li class=inline><a class=navtext href="home.html">home</a></li>
+				<li class=inline><a class=navtext href="form.html">form</a></li>
+				<li class=inline><a class=navtext href="links.html">links</a></li>
+				<li class=inline><a class=navtext href="pictures.html">pictures</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<form action="/form-handling-url" method="post">
+		<fieldset>
+			<legend>Feedback</legend>
+
+			<div class="box">
+				<div class="row">
+					<div class="column">
+						<label for="firstName">Your name:</label>
+						<input type="text" id="firstName" name="first_name">
+					</div>
+				</div>
+				<div class="row">
+				  <div class="column">
+					
+						<label class="label" for="email">Email:</label>
+						<input type="email" id="email" name="email_address">
+					</div>
+				</div>
+				<div class="row">
+				  <div class="column">					
+						<label for="comments">Comments:</label>
+						<textarea id="comments" name="comments"></textarea>
+					</div>
+				</div>
+
+				<div class="row">					
+						<input type="checkbox" id="signup" name="signup" value="Signup">
+						<label for="signup">sign up</label><br>
+				</div>
+				
+				<div>
+					<button class="submit-but" type="submit">Submit</button>
+				</div>			
+			
+
+			</div>
+
+		</fieldset>
+	</form>
+</body>
+
+</html>
